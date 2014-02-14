@@ -3122,3 +3122,18 @@ Command: [/usr/lib/jvm/java-6-sun-1.6.0.26/bin/java, -mx256m, org.infinitest.tes
 
 !ENTRY org.infinitest.eclipse 1 0 2014-02-14 15:33:57.527
 !MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2014-02-14 16:06:14.806
+!MESSAGE ProjetTDD Files changed: [/home/p12003701/net-home/workspace/ProjetTDD/bin/RomanChiffre/RomanTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-02-14 16:06:14.809
+!MESSAGE ProjetTDD Running tests: [RomanChiffre.RomanTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-02-14 16:06:14.809
+!MESSAGE Launching test runner process with the following configuration:
+Directory: /home/p12003701/net-home/workspace/ProjetTDD
+Environment: {GNOME_KEYRING_CONTROL=/tmp/keyring-AU4b4K, GTK_MODULES=canberra-gtk-module, SSH_AGENT_PID=2647, MOZILLA_FIVE_HOME=/usr/lib/xulrunner-1.9.1, XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, SESSION_MANAGER=local/pcdebian164x:@/tmp/.ICE-unix/2612,unix/pcdebian164x:/tmp/.ICE-unix/2612, GNOME_DESKTOP_SESSION_ID=this-is-deprecated, GDMSESSION=default, XDG_SESSION_COOKIE=2e5f59756f1d18a6892c979c0000000b-1392380937.555415-1913635627, XDG_DATA_DIRS=/usr/share/gnome:/usr/share/gdm/:/usr/local/share/:/usr/share/, PWD=/home/p12003701, TNS_ADMIN=/etc/oracle, LOGNAME=p12003701, GPG_AGENT_INFO=/tmp/seahorse-UzzpeX/S.gpg-agent:2661:1, NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, SSH_AUTH_SOCK=/tmp/keyring-AU4b4K/ssh, LD_LIBRARY_PATH=/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386/client:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386:, DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-iKwNxuF8km,guid=6babb99ed0b4087527256ff700000046, SHELL=/bin/bash, GDM_KEYBOARD_LAYOUT=fr	latin9, PT5HOME=/usr/local/PacketTracer5, EDITOR=/usr/bin/gvim, GNOME_KEYRING_PID=2593, GTK_RC_FILES=/etc/gtk/gtkrc:/home/p12003701/.gtkrc-1.2-gnome2, CLASSPATH=/home/p12003701/net-home/workspace/ProjetTDD/bin:/usr/local/eclipse-java/plugins/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar:/usr/local/eclipse-java/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar:/tmp/infinitest.jar, PATH=/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/local/eclipse-C++:/usr/local/eclipse-java, DESKTOP_SESSION=default, DISPLAY=:0.0, USER=p12003701, HOME=/home/p12003701, XAUTHORITY=/var/run/gdm3/auth-for-p12003701-FVZpUt/database, GDM_LANG=fr_FR.UTF-8, WINDOWPATH=7, USERNAME=p12003701, ORBIT_SOCKETDIR=/tmp/orbit-p12003701, TWO_TASK=onzeg, LANG=fr_FR.UTF-8}
+Command: [/usr/lib/jvm/java-6-sun-1.6.0.26/bin/java, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 58145]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-02-14 16:06:15.092
+!MESSAGE Update complete. Status PASSING

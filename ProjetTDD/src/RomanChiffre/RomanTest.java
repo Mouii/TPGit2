@@ -110,6 +110,6 @@ public class RomanTest {
 
 	@Test(expected = ArithmeticException.class)
 	public void testEchec() {
-		rom.decode("eeeee");
+		rom.decode("eeeeeeeeeeeee");
 	}
 }
