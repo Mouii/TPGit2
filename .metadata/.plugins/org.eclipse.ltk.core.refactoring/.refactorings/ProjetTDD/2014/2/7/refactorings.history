@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;RomanChiffre.Roman_Test&apos; to &apos;RomanTest&apos;&#x0A;- Original project: &apos;ProjetTDD&apos;&#x0A;- Original element: &apos;RomanChiffre.Roman_Test&apos;&#x0A;- Renamed element: &apos;RomanChiffre.RomanTest&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Roman_Test&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;RomanChiffre{Roman_Test.java[Roman_Test" matchStrategy="1" name="RomanTest" qualified="false" references="true" similarDeclarations="false" stamp="1392382843325" textual="false" version="1.0"/>
+</session>

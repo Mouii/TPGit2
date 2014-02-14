@@ -1,0 +1,129 @@
+package RomanChiffre;
+
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+public class RomanTest {
+
+	Roman rom;
+	int lerom;
+	
+	@Before
+	public void setUp() throws Exception {
+		rom = new Roman();
+	}
+
+	@Test
+	public void testI() {
+		assertEquals(1, rom.decode("I"));
+	} //Test de 1
+	
+	@Test
+	public void testV() {
+		assertEquals(5, rom.decode("V"));
+	} //Test de 5
+	
+	@Test
+	public void testVI() {
+		assertEquals(6, rom.decode("VI"));
+	} //Test de 6
+	
+	@Test
+	public void testIV() {
+		assertEquals(4, rom.decode("IV"));
+	} //Test de 4
+	
+	@Test
+	public void testX() {
+		assertEquals(10, rom.decode("X"));
+	} //Test de 10
+	
+	@Test
+	public void testIX() {
+		assertEquals(9, rom.decode("IX"));
+	} //Test de 9
+	
+	@Test
+	public void testXI() {
+		assertEquals(11, rom.decode("XI"));
+	} //Test de 11
+	
+	@Test
+	public void testXV() {
+		assertEquals(1, rom.decode("XV");
+		System.out.println(lerom);
+	} //Test de 15
+	
+	@Test
+	public void testXIX() {
+		lerom = rom.decode("XIX");
+		System.out.println(lerom);
+	} //Test de 19
+	
+	@Test
+	public void testXXV() {
+		lerom = rom.decode("XXV");
+		System.out.println(lerom);
+	} //Test de 25
+	
+	@Test
+	public void testL() {
+		lerom = rom.decode("L");
+		System.out.println(lerom);
+	} //Test de 50
+	
+	@Test
+	public void testXL() {
+		lerom = rom.decode("XL");
+		System.out.println(lerom);
+	} //Test de 40
+	
+	@Test
+	public void testLXX() {
+		lerom = rom.decode("LXX");
+		System.out.println(lerom);
+	} //Test de 70
+	
+	@Test
+	public void testC() {
+		lerom = rom.decode("C");
+		System.out.println(lerom);
+	} //Test de 100
+	
+	@Test
+	public void testXC() {
+		lerom = rom.decode("XC");
+		System.out.println(lerom);
+	} //Test de 90
+	
+	@Test
+	public void testCX() {
+		lerom = rom.decode("CX");
+		System.out.println(lerom);
+	} //Test de 110
+	
+	@Test
+	public void testCCCLXIX() {
+		lerom = rom.decode("CCCLXIX");
+		System.out.println(lerom);
+	} //Test de 369
+	
+	@Test
+	public void testCDXLVIII() {
+		lerom = rom.decode("CDXLVIII");
+		System.out.println(lerom);
+	} //Test de 448
+	
+	@Test
+	public void testMMDCCLI() {
+		lerom = rom.decode("MMDCCLI");
+		System.out.println(lerom);
+	} //Test de 2751
+
+	@Test
+	public void testEchec() {
+		lerom = rom.decode("e");
+		System.out.println(lerom);
+	} //Test de erreur
+}

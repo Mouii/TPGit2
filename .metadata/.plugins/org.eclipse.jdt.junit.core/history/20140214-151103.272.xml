@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="RomanTest" project="ProjetTDD" tests="20" started="20" failures="1" errors="0" ignored="0">
+  <testsuite name="RomanChiffre.RomanTest" time="0.005">
+    <testcase name="test1" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test5" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test6" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test4" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test10" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test9" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test11" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test15" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test19" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test25" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test50" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test40" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test70" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test100" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test90" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test110" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test369" classname="RomanChiffre.RomanTest" time="0.001"/>
+    <testcase name="test448" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="test2751" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="testEchec" classname="RomanChiffre.RomanTest" time="0.004">
+      <failure>java.lang.AssertionError: Expected exception: java.lang.Exception
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:35)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

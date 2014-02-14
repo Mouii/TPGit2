@@ -1,0 +1,115 @@
+package RomanChiffre;
+
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+public class RomanTest {
+
+	Roman rom;
+	
+	@Before
+	public void setUp() throws Exception {
+		rom = new Roman();
+	}
+
+	@Test
+	public void test1() {
+		assertEquals(1, rom.decode("I"));
+	}
+	
+	@Test
+	public void test5() {
+		assertEquals(5, rom.decode("V"));
+	}
+	
+	@Test
+	public void test6() {
+		assertEquals(6, rom.decode("VI"));
+	}
+	
+	@Test
+	public void test4() {
+		assertEquals(4, rom.decode("IV"));
+	}
+	
+	@Test
+	public void test10() {
+		assertEquals(10, rom.decode("X"));
+	}
+	
+	@Test
+	public void test9() {
+		assertEquals(9, rom.decode("IX"));
+	}
+	
+	@Test
+	public void test11() {
+		assertEquals(11, rom.decode("XI"));
+	}
+	
+	@Test
+	public void test15() {
+		assertEquals(15, rom.decode("XV"));
+	}
+	
+	@Test
+	public void test19() {
+		assertEquals(19, rom.decode("XIX"));
+	} //Test de 19
+	
+	@Test
+	public void testXXV() {
+		assertEquals(25, rom.decode("XXV"));
+	} //Test de 25
+	
+	@Test
+	public void testL() {
+		assertEquals(50, rom.decode("L"));
+	} //Test de 50
+	
+	@Test
+	public void testXL() {
+		assertEquals(40, rom.decode("XL"));
+	} //Test de 40
+	
+	@Test
+	public void testLXX() {
+		assertEquals(70, rom.decode("LXX"));
+	} //Test de 70
+	
+	@Test
+	public void testC() {
+		assertEquals(100, rom.decode("C"));
+	} //Test de 100
+	
+	@Test
+	public void testXC() {
+		assertEquals(90, rom.decode("XC"));
+	} //Test de 90
+	
+	@Test
+	public void testCX() {
+		assertEquals(110, rom.decode("CX"));
+	} //Test de 110
+	
+	@Test
+	public void testCCCLXIX() {
+		assertEquals(369, rom.decode("CCCLXIX"));
+	} //Test de 369
+	
+	@Test
+	public void testCDXLVIII() {
+		assertEquals(448, rom.decode("CDXLVIII"));
+	} //Test de 448
+	
+	@Test
+	public void testMMDCCLI() {
+		assertEquals(2751, rom.decode("MMDCCLI"));
+	} //Test de 2751
+
+	@Test(expected = RuntimeException.class)
+	public void testEchec() {
+		assertEquals(-1, rom.decode("e"));
+	} //Test de erreur
+}

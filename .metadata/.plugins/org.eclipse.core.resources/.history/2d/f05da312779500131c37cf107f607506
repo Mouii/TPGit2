@@ -1,0 +1,50 @@
+package RomanChiffre;
+
+import org.junit.*;
+
+public class Roman_Test {
+
+	Roman rom;
+	
+	@Before
+	public void setUp() throws Exception {
+		rom = new Roman();
+	}
+
+	@Test
+	public void testI() {
+		int lerom = rom.exec("I");
+		System.out.println(lerom);
+	}
+	
+	@Test
+	public void testIV() {
+		int lerom = rom.exec("IV");
+		System.out.println(lerom);
+	}
+	
+	@Test
+	public void testI() {
+		int lerom = rom.exec("I");
+		System.out.println(lerom);
+	}
+	
+	@Test
+	public void testI() {
+		int lerom = rom.exec("I");
+		System.out.println(lerom);
+	}
+	
+	@Test
+	public void testI() {
+		int lerom = rom.exec("I");
+		System.out.println(lerom);
+	}
+	
+	@Test
+	public void testI() {
+		int lerom = rom.exec("I");
+		System.out.println(lerom);
+	}
+
+}

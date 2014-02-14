@@ -1,0 +1,116 @@
+package RomanChiffre;
+
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+public class RomanTest {
+
+	Roman rom;
+	int lerom;
+	
+	@Before
+	public void setUp() throws Exception {
+		rom = new Roman();
+	}
+
+	@Test
+	public void testI() {
+		assertEquals(1, rom.decode("I"));
+	} //Test de 1
+	
+	@Test
+	public void testV() {
+		assertEquals(5, rom.decode("V"));
+	} //Test de 5
+	
+	@Test
+	public void testVI() {
+		assertEquals(6, rom.decode("VI"));
+	} //Test de 6
+	
+	@Test
+	public void testIV() {
+		assertEquals(4, rom.decode("IV"));
+	} //Test de 4
+	
+	@Test
+	public void testX() {
+		assertEquals(10, rom.decode("X"));
+	} //Test de 10
+	
+	@Test
+	public void testIX() {
+		assertEquals(9, rom.decode("IX"));
+	} //Test de 9
+	
+	@Test
+	public void testXI() {
+		assertEquals(11, rom.decode("XI"));
+	} //Test de 11
+	
+	@Test
+	public void testXV() {
+		assertEquals(15, rom.decode("XV"));
+	} //Test de 15
+	
+	@Test
+	public void testXIX() {
+		assertEquals(19, rom.decode("XIX"));
+	} //Test de 19
+	
+	@Test
+	public void testXXV() {
+		assertEquals(25, rom.decode("XXV"));
+	} //Test de 25
+	
+	@Test
+	public void testL() {
+		assertEquals(50, rom.decode("L"));
+	} //Test de 50
+	
+	@Test
+	public void testXL() {
+		assertEquals(40, rom.decode("XL"));
+	} //Test de 40
+	
+	@Test
+	public void testLXX() {
+		assertEquals(70, rom.decode("LXX"));
+	} //Test de 70
+	
+	@Test
+	public void testC() {
+		assertEquals(100, rom.decode("C"));
+	} //Test de 100
+	
+	@Test
+	public void testXC() {
+		assertEquals(90, rom.decode("XC"));
+	} //Test de 90
+	
+	@Test
+	public void testCX() {
+		assertEquals(110, rom.decode("CX"));
+	} //Test de 110
+	
+	@Test
+	public void testCCCLXIX() {
+		assertEquals(369, rom.decode("CCCLXIX"));
+	} //Test de 369
+	
+	@Test
+	public void testCDXLVIII() {
+		assertEquals(448, rom.decode("CDXLVIII");
+	} //Test de 448
+	
+	@Test
+	public void testMMDCCLI() {
+		lerom = rom.decode("MMDCCLI");
+	} //Test de 2751
+
+	@Test
+	public void testEchec() {
+		lerom = rom.decode("e");
+	} //Test de erreur
+}

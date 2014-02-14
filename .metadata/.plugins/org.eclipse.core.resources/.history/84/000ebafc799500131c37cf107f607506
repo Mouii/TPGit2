@@ -1,0 +1,111 @@
+package RomanChiffre;
+
+import org.junit.*;
+
+public class RomanTest {
+
+	Roman rom;
+	int lerom;
+	
+	@Before
+	public void setUp() throws Exception {
+		rom = new Roman();
+	}
+
+	@Test
+	public void testI() {
+		lerom = rom.exec("I");
+		System.out.println(lerom);
+	} //Test de 1
+	
+	@Test
+	public void testV() {
+		lerom = rom.exec("V");
+		System.out.println(lerom);
+	} //Test de 5
+	
+	@Test
+	public void testVI() {
+		lerom = rom.exec("VI");
+		System.out.println(lerom);
+	} //Test de 6
+	
+	@Test
+	public void testIV() {
+		lerom = rom.exec("IV");
+		System.out.println(lerom);
+	} //Test de 4
+	
+	@Test
+	public void testX() {
+		lerom = rom.exec("X");
+		System.out.println(lerom);
+	} //Test de 10
+	
+	@Test
+	public void testIX() {
+		lerom = rom.exec("IX");
+		System.out.println(lerom);
+	} //Test de 9
+	
+	@Test
+	public void testXI() {
+		lerom = rom.exec("XI");
+		System.out.println(lerom);
+	} //Test de 11
+	
+	@Test
+	public void testXV() {
+		lerom = rom.exec("XV");
+		System.out.println(lerom);
+	} //Test de 15
+	
+	@Test
+	public void testXIX() {
+		lerom = rom.exec("XIX");
+		System.out.println(lerom);
+	} //Test de 19
+	
+	@Test
+	public void testXXV() {
+		lerom = rom.exec("XXV");
+		System.out.println(lerom);
+	} //Test de 25
+	
+	@Test
+	public void testL() {
+		lerom = rom.exec("L");
+		System.out.println(lerom);
+	} //Test de 50
+	
+	@Test
+	public void testXL() {
+		lerom = rom.exec("XL");
+		System.out.println(lerom);
+	} //Test de 40
+	
+	@Test
+	public void testLXX() {
+		lerom = rom.exec("LXX");
+		System.out.println(lerom);
+	} //Test de 70
+	
+	@Test
+	public void testC() {
+		lerom = rom.exec("C");
+		System.out.println(lerom);
+	} //Test de 100
+	
+	@Test
+	public void testXC() {
+		lerom = rom.exec("XC");
+		System.out.println(lerom);
+	} //Test de 90
+	
+	@Test
+	public void testCX() {
+		lerom = rom.exec("CX");
+		System.out.println(lerom);
+	} //Test de 110
+
+}

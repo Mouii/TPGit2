@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="RomanTest" project="ProjetTDD" tests="16" started="16" failures="0" errors="0" ignored="0">
+  <testsuite name="RomanChiffre.RomanTest" time="0.009">
+    <testcase name="testI" classname="RomanChiffre.RomanTest" time="0.003"/>
+    <testcase name="testV" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="testVI" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="testIV" classname="RomanChiffre.RomanTest" time="0.001"/>
+    <testcase name="testX" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="testIX" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="testXI" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="testXV" classname="RomanChiffre.RomanTest" time="0.001"/>
+    <testcase name="testXIX" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="testXXV" classname="RomanChiffre.RomanTest" time="0.001"/>
+    <testcase name="testL" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="testXL" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="testLXX" classname="RomanChiffre.RomanTest" time="0.001"/>
+    <testcase name="testC" classname="RomanChiffre.RomanTest" time="0.0"/>
+    <testcase name="testXC" classname="RomanChiffre.RomanTest" time="0.001"/>
+    <testcase name="testCX" classname="RomanChiffre.RomanTest" time="0.001"/>
+  </testsuite>
+</testrun>
